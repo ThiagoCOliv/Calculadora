@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    border-radius: 15px;
+    width: 75vw;
+    height: 50vh;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.numeros, .operacoes, .resultado{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numeros input{
+    width: 49%;
+}
+
+.operacoes input{
+    padding: 10px;
+    font-size: 30px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.resultado input{
+    width: 100%;
+}
